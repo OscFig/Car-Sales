@@ -2,6 +2,7 @@ import React from 'react';
 import AdditionalFeature from './AdditionalFeature';
 
 const AdditionalFeatures = props => {
+    console.log(props, 'props in addfeatures')
   return (
     <div className="content">
       <h4>Additional Features</h4>
